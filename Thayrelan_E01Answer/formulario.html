@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>Forms for User</title>
+        <style>
+            
+            label{
+                display: block;
+            }
+            
+        </style>
+    </head>
+    ><body>
+        <h1>Pesquisa de Recrutamento</h1>
+        <form>
+            <fieldset>
+                <legend>Dados pessoais</legend>
+
+                <div>
+                <label>Code:</label>
+                <input type="number">
+            </div>
+
+            <div>
+                <label>Nome:</label>
+                <input type="Text">
+            </div>
+
+            <div>
+                <label>Idade:</label>
+                <input type="number">
+            </div>
+
+            <div>
+                <label>Senha:</label>
+                <input type="password">
+            </div>
+
+            <div>
+                <label>Sexo:</label>
+            </div>
+                <label>
+                    <input type="radio", name="status">
+                    Masculino
+                </label>
+                <label>
+                    <input type="radio", name="status">
+                    Feminino
+                </label>
+            
+
+            <legend>Cartão de Crédito</legend>
+            <div>
+                <select multiple>
+                    <option>MasterCard</option>
+                    <option>Elo</option>
+                    <option>AmericanExpress</option>
+                </select>
+            </div>
+
+            </fieldset>
+            
+            <fieldset>
+                <legend>Dados profissionais</legend>
+
+                <div>
+                <label>Cargo</label>
+                <select>
+                    <option>Analista Júnior</option>
+                    <option>Analista Pleno</option>
+                    <option>Analista Sênior</option>
+                </select>
+                </div>
+                <div>
+                    <label>Dados:</label>
+                </div>
+                    
+                    <label>
+                        <input type="checkbox"> Fumante
+                    </label>
+                    <label>
+                        <input type="checkbox"> Alcolatra
+                    </label>
+                    <label>
+                        <input type="checkbox"> Foragido
+                    </label>
+                
+                <label>Experiencias Profissionais:</label>
+                <textarea placeholder="Data inicio/ Data fim/ Empresa/ Cargo" id="story" name="story" rows="5" cols="33"></textarea>
+            </fieldset>
+            
+        </form>
+        <form>
+            
+            
+                 
+         
+        </form>
+        <p><input type="submit" value="Enviar"></p>
+    </body>
+</html>
